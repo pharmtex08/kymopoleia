@@ -117,7 +117,7 @@ body {
 }
 .side-nav ul li span:nth-child(2) {
 	margin-left: 10px;
-	font-size: 18px;
+	font-size: 17px;
 	font-weight: 600;
 }
 /* main content styles */
@@ -235,6 +235,8 @@ table, th, td {
 .fa-home{
 	color: #FD4720;
 	padding-right: 5px;
+	
+
 }
 .fa-dollar{
 	padding-right: 5px;
@@ -258,4 +260,26 @@ table, th, td {
 .table{
 	margin-top: -70px;
 	margin-left: -100px;
+}
+
+input{
+	position: relative;
+	top:-90px;
+	right: -570px;
+	bottom: 60px;
+	outline: none;
+	border-radius: 20px;
+    padding: 13px 0 13px 9px;
+    
+    width: 276px;
+    border: 1px solid rgb(153,153,153);
+    outline: none;
+    font-size: 15px;
+    text-align: justify;
+    color: rgb(153,153,153);
+}
+
+input:focus{
+    border-color: rgb(153,153,153);
+    box-shadow: inset 0 1px 1px rgba(66, 66, 66, 0.075), 0 0 8px rgba(236, 160, 18, 0.6);
 }
