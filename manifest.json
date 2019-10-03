@@ -6,7 +6,7 @@
   "background_color": "#56c590",
   "theme_color": "#56c590",
   "orientation": "portrait-primary",
-  "scope": "",
+  "scope": "/index.php",
  "icons": [{
       "src": "images/icons/icon-72x72.png",
       "sizes": "72x72",
