@@ -43,6 +43,7 @@
     <link rel="stylesheet" href="./css/dashboard.css">
     <script src="https://kit.fontawesome.com/833e0cadb7.js" crossorigin="anonymous"></script>
     <link href="https://unpkg.com/bootstrap-table@1.15.4/dist/bootstrap-table.min.css" rel="stylesheet">
+     <link rel="manifest" href="manifest.json">
     
 
     <title>Kymo Budget | Dashboard </title>
@@ -188,7 +189,8 @@
            console.log(document.getElementById('hidden').val);
         window.location="../budget/view-budget.html?value=" +document.getElementById('hidden').val;
     }
- </script>  
+ </script> 
+  <script src="js/app.js"></script> 
    <!-- END SIDEBAR MENU -->
    <script>
   function deleteRow(r) {
